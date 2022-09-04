@@ -11,7 +11,7 @@
     "test": "ng test",
     "e2e": "ng e2e",
     "assets": "cp src/assets/* dist/spa",
-    "serve": "http-server dist/spa -p 3000 -d false",
+    "serve": "http-server dist/spa -p 3000",
     "dev": "yarn run serve"
   },
   "private": true,
