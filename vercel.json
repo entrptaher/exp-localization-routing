@@ -2,7 +2,7 @@
   "redirects": [
     {
       "source": "/",
-      "destination": "/en-US/:path*"
+      "destination": "/en-US"
     }
   ],
   "rewrites": [
