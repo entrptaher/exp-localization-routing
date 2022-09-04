@@ -11,7 +11,9 @@
         }
       },
       "i18n": {
-        "sourceLocale": "en-US",
+        "sourceLocale": {
+          "code": "en-US"
+        },
         "locales": {
           "bn-IN": {
             "translation": "src/locale/messages.bd.xlf"
