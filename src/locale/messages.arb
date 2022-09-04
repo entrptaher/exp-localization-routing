@@ -1,0 +1,13 @@
+{
+  "@@locale": "en-US",
+  "3628953179342697199": "My color is {$INTERPOLATION}",
+  "@3628953179342697199": {
+    "x-locations": [
+      {
+        "file": "src/app/hello-world-bindings/hello-world-bindings.component.html",
+        "start": { "line": "11", "column": "8" },
+        "end": { "line": "11", "column": "35" }
+      }
+    ]
+  }
+}

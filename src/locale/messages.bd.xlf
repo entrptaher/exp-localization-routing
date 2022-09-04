@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file datatype="plaintext" original="ng2.template" source-language="en-US" target-language="bn-IN">
+    <body>
+      <trans-unit id="main.color.message_trigger" datatype="html">
+        <source> Trigger alert message
+</source>
+        <target>সতর্কবার্তা</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/hello-world-bindings/hello-world-bindings.component.html</context>
+          <context context-type="linenumber">1,3</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="main.color.message_text" datatype="html">
+        <source> You can set my color in the component!
+</source>
+        <target>রং আর রং</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/hello-world-bindings/hello-world-bindings.component.html</context>
+          <context context-type="linenumber">4,6</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="main.color.message_full" datatype="html">
+        <source>My color is <x id="INTERPOLATION" equiv-text="{{ fontColor }}"/></source>
+        <target>বেশি বেশি রং <x id="INTERPOLATION" equiv-text="{{ fontColor }}"/></target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/hello-world-bindings/hello-world-bindings.component.html</context>
+          <context context-type="linenumber">7</context>
+        </context-group>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

@@ -1,0 +1,7 @@
+<button type="button" [disabled]="canClick" (click)="sayMessage()" i18n="@@app.hello-world.trigger_alert">
+  Trigger alert message
+</button>
+<p [id]="sayHelloId" [style.color]="fontColor" i18n="@@main.color.message_text">
+  You can set my color in the component!
+</p>
+<p i18n="@@main.color.message_full">My color is {{ fontColor }}</p>
