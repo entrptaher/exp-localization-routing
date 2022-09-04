@@ -1,22 +1,31 @@
 # example netlify.toml
 [build]
-  command = "ng build"
-  functions = "netlify/functions"
-  publish = "dist/spa"
+command = "ng build"
+functions = "netlify/functions"
+publish = "dist/spa"
 
-  ## Uncomment to use this redirect for Single Page Applications like create-react-app.
-  ## Not needed for static site generators.
-  [[redirects]]
-    from = "/en-US/*"
-    to = "/en-US/index.html"
-    status = 200
+## Uncomment to use this redirect for Single Page Applications like create-react-app.
+## Not needed for static site generators.
+[[redirects]]
+from = "/en-US/*"
+to = "/en-US/index.html"
+status = 200
 
-  ## (optional) Settings for Netlify Dev
-  ## https://github.com/netlify/cli/blob/main/docs/netlify-dev.md#project-detection
-  [dev]
-    command = "yarn run dev" # Command to start your dev server
-    port = 3001 # Port that the dev server will be listening on
-    targetPort = 3000
-    publish = "netlify" # Folder with the static content for _redirect file
+[[redirects]]
+from = "/bn-IN/*"
+to = "/bn-IN/index.html"
+status = 200
 
-  ## more info on configuring this file: https://docs.netlify.com/configure-builds/file-based-configuration/
+[[redirects]]
+from = "/"
+to = "/en-US"
+status = 301
+
+## (optional) Settings for Netlify Dev
+## https://github.com/netlify/cli/blob/main/docs/netlify-dev.md#project-detection
+[dev]
+framework = "#static"
+dir = "dist"          # Command to start your dev server
+port = 3001           # Port that the dev server will be listening on
+
+## more info on configuring this file: https://docs.netlify.com/configure-builds/file-based-configuration/

@@ -1,0 +1,14 @@
+{
+  "redirects": [
+    {
+      "source": "/:path*",
+      "destination": "/en-US/:path*"
+    }
+  ],
+  "rewrites": [
+    {
+      "source": "/en-US/:path*",
+      "destination": "/en-US/index.html"
+    }
+  ]
+}
