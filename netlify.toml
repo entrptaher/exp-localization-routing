@@ -17,6 +17,6 @@
     command = "yarn run dev" # Command to start your dev server
     port = 3001 # Port that the dev server will be listening on
     targetPort = 3000
-    publish = "src" # Folder with the static content for _redirect file
+    publish = "netlify" # Folder with the static content for _redirect file
 
   ## more info on configuring this file: https://docs.netlify.com/configure-builds/file-based-configuration/
