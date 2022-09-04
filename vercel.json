@@ -1,7 +1,7 @@
 {
   "redirects": [
     {
-      "source": "/:path*",
+      "source": "/",
       "destination": "/en-US/:path*"
     }
   ],
